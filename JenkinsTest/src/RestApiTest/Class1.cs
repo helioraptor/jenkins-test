@@ -10,5 +10,9 @@ namespace RestApiTest
         public Class1()
         {
         }
+
+        public static void Main(string[] args)
+        {
+        }
     }
 }

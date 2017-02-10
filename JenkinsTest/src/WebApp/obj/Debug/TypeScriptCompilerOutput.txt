@@ -1,0 +1,2 @@
+D:\work\JenkinsTest\src\WebApp\Scripts\simple.component.js
+D:\work\JenkinsTest\src\WebApp\Scripts\simple.component.js

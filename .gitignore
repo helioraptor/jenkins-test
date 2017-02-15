@@ -1,1 +1,3 @@
 JenkinsTest/src/RestApiTesting/node_modules/*
+JenkinsTest/src/RestApiTesting/coverage/*
+JenkinsTest/src/RestApiTesting/karma-results/*

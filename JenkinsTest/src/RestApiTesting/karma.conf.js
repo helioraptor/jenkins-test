@@ -14,7 +14,9 @@ module.exports = function(config) {
 
     plugins: [
         'karma-jasmine',
-        'karma-phantomjs-launcher'
+        'karma-phantomjs-launcher',
+        'karma-coverage',
+        'karma-junit-reporter'
     ],
 
 
@@ -41,8 +43,17 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage', 'junit'],
 
+    coverageReporter: {
+        type: 'html',
+        dir: 'coverage/'
+    },
+
+    junitReporter: {
+        outputDir: 'karma-results',
+        outputFile: 'karma-results.xml'
+    },
 
     // web server port
     port: 9876,
